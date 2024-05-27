@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921864032417",
+    "project_id": "fir-auth-test-2feed",
+    "storage_bucket": "fir-auth-test-2feed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921864032417:android:53dd972a0159542fce60e0",
+        "android_client_info": {
+          "package_name": "com.kugelblitz.todoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa6oAGpslINpEz-XC7H-lz21mMNPQPdDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
