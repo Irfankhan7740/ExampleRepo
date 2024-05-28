@@ -1,8 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:sentry/sentry.dart';
 import 'package:todoapp/addSomeNewData.dart';
 import 'package:todoapp/bottomNavigationBar.dart';
+
 import 'package:todoapp/tabScreen.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 
 import 'package:flutter/widgets.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
@@ -11,6 +15,8 @@ import 'homePage.dart';
 import 'package:get/get.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   await SentryFlutter.init(
     (options) {
       options.dsn =

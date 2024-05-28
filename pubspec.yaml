@@ -42,6 +42,10 @@ dependencies:
   get: ^4.6.5
   sentry_flutter: ^7.7.0
   bottom_sheet: ^3.1.2
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  firebase_ui_auth: 1.7.0
+
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +74,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/image/IMG_0769.jpeg
+    - shorebird.yaml
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
